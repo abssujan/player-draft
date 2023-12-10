@@ -8,16 +8,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- add tailwind cdn -->
         <script src="https://cdn.tailwindcss.com"></script>
+        <!-- fonts link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <!-- add css -->
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <!-- main container -->
         <div class="main-container">
             <!-- header hero section -->
-            <div class="w-full bg-gray-900 h-96">
-
+            <div class="w-full bg-black h-96 flex justify-between space-x-10">
+                <!-- image left -->
+                <div class="w-2/5">
+                    <img class="object-cover w-full h-full" src="./image/pic (2).png" alt="">
+                </div>
+                <!-- text middile -->
+                <div class="w-4/5 flex flex-col justify-center px-10">
+                    <h1 class=" text-center font-bold heading-text text-orange-500 text-6xl">Select Your Best Five</h1>
+                    <p class=" text-center mt-5 text-slate-300 leading-5">Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. Quo amet cum recusandae
+                         minus cumque vitae error numquam,
+                         expedita at quis?</p>
+                </div>
+                <!-- image right -->
+                <div class="w-2/5 flex flex-cil justify-end items-end ">
+                    <img class="object-cover h-60 xl:w-full xl:h-80 " src="./image/pic (3).png" alt="">
+                </div>
             </div>
             <!-- main player draft section -->
-            <div class="bg-gray-700 h-screen">
+            <div class="bg-gray-900 h-screen">
 
             </div>
         </div>
